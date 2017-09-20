@@ -1,3 +1,12 @@
-* {
-	color: red
+body {
+  background-color:rgb(153,202,130);
+}
+h1 {
+  color:rgb(107,101,2);
+}
+h3 {
+  color:rgb(107,101,2);
+}
+p {
+  color:rgb(31,93,2);
 }

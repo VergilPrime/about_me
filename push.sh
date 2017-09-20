@@ -1,3 +1,3 @@
 git add .
-git commit -m "Adding content to index.html"
+git commit -m "Some CSS so I can go the frick to bed"
 git push origin master
