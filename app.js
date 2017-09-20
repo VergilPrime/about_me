@@ -9,6 +9,7 @@ alert('Hello ' + userName + ', see if you can pass my test.');
 
 //----QUESTION 1
 var devNameGuess = prompt('Who do you think I am?').toLowerCase();
+console.log('User Input: ' + devNameGuess);
 
 if(devNameGuess === 'dustin' || devNameGuess === 'dustin mundy' ){
 //----CORRECT!
@@ -55,6 +56,7 @@ if(devNameGuess === 'dustin' || devNameGuess === 'dustin mundy' ){
 
 //----QUESTION 2
 var devJobGuess = prompt('What was my previous profession?').toLowerCase();
+console.log('User Input: ' + devJobGuess);
 if(devJobGuess === 'security' || devJobGuess === 'security guard' || devJobGuess === 'guard'){
   //CORRECT!
   alert('Yes, I was a security guard before I moved here for about a year and a half.');
@@ -75,6 +77,7 @@ if(devJobGuess === 'security' || devJobGuess === 'security guard' || devJobGuess
 
 //----QUESTION 3
 var devGameGuess = prompt('What videogame am I most commonly associated with?').toLowerCase();
+console.log('User Input: ' + devGameGuess);
 if(devGameGuess === 'minecraft'){
 //----CORRECT!
   alert('Yes! I ran a Minecraft server for several years.');
@@ -97,6 +100,7 @@ if(devGameGuess === 'minecraft'){
 //----QUESTION 4
 //---- I used == instead of === cause I don't know what the user input will turn into.
 var devMathGuess = prompt('What is the 52nd prime number?');
+console.log('User Input: ' + devMathGuess);
 if(devMathGuess == 233){
 //----CORRECT!
   alert('Correct! You googled that!');
@@ -110,7 +114,7 @@ if(devMathGuess == 233){
 
     alert('You must start again if you wish to access this page further!');
     location.href = 'https://omfgdogs.com/';
-    throw new Error(str || "Script ended by death");
+    throw new Error("Script end");
 
   }
 }
