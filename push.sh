@@ -1,3 +1,3 @@
 git add .
-git commit -m "Fixing spacing in app.js"
+git commit -m "Adding content to index.html"
 git push origin master
