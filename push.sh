@@ -1,3 +1,3 @@
 git add .
-git commit -m "Gussied up my comments"
+git commit -m "Save early save often!"
 git push origin master

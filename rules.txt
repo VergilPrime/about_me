@@ -1,0 +1,11 @@
+Use lots of console.logs
+Do lists
+Be funny ?!?!
+Top 10 Top 10 lists!
+CSS Mustn't suck
+5 qq Yes/Nos
+1 qq requires numeric Input
+1 string match, 6 tries
+Score user
+Make it complicated with arrays and shit
+Fuck with user by randomizing answer to number qq.
