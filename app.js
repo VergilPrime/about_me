@@ -42,11 +42,11 @@ if(devNameGuess === 'dustin' || devNameGuess === 'dustin mundy' ){
       alert('Correct! My name is Dustin! You may pass!');
 
     }else if(devNameGuess === 'vergil' || devNameGuess === 'vergilprime' ){
-      //CORRECT!
+      //----CORRECT!
       alert('Okay, that\'s my online moniker. You may pass.');
 
     }else{
-      //INCORRECT!
+      //----INCORRECT!
       strikes++;
       alert('Nope. My name is Dustin Mundy! I can be found around the web using the moniker VergilPrime.');
 
@@ -58,11 +58,11 @@ if(devNameGuess === 'dustin' || devNameGuess === 'dustin mundy' ){
 var devJobGuess = prompt('What was my previous profession?').toLowerCase();
 console.log('User Input: ' + devJobGuess);
 if(devJobGuess === 'security' || devJobGuess === 'security guard' || devJobGuess === 'guard'){
-  //CORRECT!
+  //----CORRECT!
   alert('Yes, I was a security guard before I moved here for about a year and a half.');
 
 }else{
-  //INCORRECT!
+  //----INCORRECT!
   strikes++;
   alert('Nope. I used to be a security guard!');
 

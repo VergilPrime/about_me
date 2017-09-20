@@ -1,3 +1,3 @@
 git add .
-git commit -m "Fixed missed semicolons on strike increments in app.js."
+git commit -m "Gussied up my comments"
 git push origin master
