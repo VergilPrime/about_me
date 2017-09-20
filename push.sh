@@ -1,3 +1,3 @@
 git add .
-git commit -m "I forgot console logs! Added some for user input here."
+git commit -m "Fixed missed semicolons on strike increments in app.js."
 git push origin master

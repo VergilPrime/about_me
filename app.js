@@ -21,7 +21,7 @@ if(devNameGuess === 'dustin' || devNameGuess === 'dustin mundy' ){
 
 }else{
 //----INCORRECT!
-  strikes++
+  strikes++;
   devNameGuess = prompt('Nope. Guess again.');
 
   if(devNameGuess === 'dustin' || devNameGuess === 'dustin mundy' ){
@@ -63,7 +63,7 @@ if(devJobGuess === 'security' || devJobGuess === 'security guard' || devJobGuess
 
 }else{
   //INCORRECT!
-  strikes++
+  strikes++;
   alert('Nope. I used to be a security guard!');
 
   if(strikes >= 4){
@@ -84,7 +84,7 @@ if(devGameGuess === 'minecraft'){
 
 }else{
   //----INCORRECT!
-  strikes++
+  strikes++;
   alert('Brrrrt! I ran a public Minecraft server for several years.');
 
   if(strikes >= 4){
@@ -107,7 +107,7 @@ if(devMathGuess == 233){
 
 }else{
   //----INCORRECT!
-  strikes++
+  strikes++;
   alert('Nope! You can google it though.');
 
   if(strikes >= 4){
