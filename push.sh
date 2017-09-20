@@ -1,3 +1,3 @@
 git add .
-git commit -m "Updating all files"
+git commit -m "Fixing spacing in app.js"
 git push origin master
