@@ -29,7 +29,7 @@ while(complete === false){
     scoreboard.userCorrectness1 = true;
     alert('Correct! I love to paint controllers and stuff. Two points!');
     complete = true;
-    // break;
+    break;
 
   }else if(userAnswer === 'n' || userAnswer === 'no') {
     console.log('Answer was not correct');
