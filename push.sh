@@ -1,3 +1,3 @@
 git add .
-git commit -m "I think my javascript is mostly done!"
+git commit -m "Added more CSS and content to HTML file!"
 git push origin master

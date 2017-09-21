@@ -1,4 +1,6 @@
 body {
+  margin: 5%;
+  /*height: 100%;*/
   background-color:rgb(153,202,130);
 }
 h1 {
@@ -6,7 +8,13 @@ h1 {
 }
 h3 {
   color:rgb(107,101,2);
+  margin-bottom: 2%;
 }
 p {
+  margin-bottom: 5%;
+  margin-left: 2%;
   color:rgb(31,93,2);
+}
+a {
+  font-size: 10px;
 }
