@@ -1,3 +1,5 @@
 git add .
-git commit -m "Added more CSS and content to HTML file!"
+echo -n "Enter commit description"
+read message
+git commit -m "$message"
 git push origin master
