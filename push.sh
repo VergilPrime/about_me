@@ -1,5 +1,10 @@
+#!/bin/bash
 git add .
-echo -n "Enter commit description"
-read message
-git commit -m "$message"
+if [ "$1" ]; then
+  git commit -m "$1"
+else
+  echo -n "Enter commit description: "
+  read message
+  git commit -m "$message"
+fi
 git push origin master
